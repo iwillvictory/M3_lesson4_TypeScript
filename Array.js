@@ -10,7 +10,7 @@ list.forEach(function (num) {
 });
 console.log('categries');
 categories.forEach(function (str) {
-    return console.log(str.indexOf('a'));
+    return console.log(str.includes('a'));
 });
 // convert mảng từ dạng này sang dạng khác.
 var listSquare = list.map(function (num) { return num * num; });

@@ -16,7 +16,7 @@ list.forEach((num) =>
 
 console.log('categries');
 categories.forEach((str) =>
-    console.log(str.indexOf('a'))
+    console.log(str.includes('a'))
 );
 
 // convert mảng từ dạng này sang dạng khác.
